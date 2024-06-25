@@ -66,8 +66,8 @@ def display_accesses(r, c, arr, computation_type, file):
 
 def main():
     arr = []
-    file_name = "Shashank/row_wise.txt" if row_wise else "Shashank/column_wise.txt"
-    output_file_name = "Shashank/row_wise_joined.txt" if row_wise else "Shashank/column_wise_joined.txt"
+    file_name = "./row_wise.txt" if row_wise else "./column_wise.txt"
+    output_file_name = "./row_wise_joined.txt" if row_wise else "./column_wise_joined.txt"
 
     # Open file for writing
     with open(output_file_name, 'w') as output_file:
